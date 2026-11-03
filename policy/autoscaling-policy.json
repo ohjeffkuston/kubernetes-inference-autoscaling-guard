@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "workload_class": "ai-inference",
+  "required_gpu_resource": "nvidia.com/gpu",
+  "minimum_scale_down_stabilization_seconds": 300,
+  "required_slo_annotation": "slo.platform.example.com/p95-latency-ms",
+  "ai_authority": "advisory-only"
+}
